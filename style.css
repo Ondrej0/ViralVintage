@@ -1,0 +1,551 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Optional: includes padding and border in the element's total width and height */
+}
+
+.desktop {
+  background-color: #17026d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #17026d;
+  overflow: hidden;
+
+  width: 100%;
+  height: 2603px;
+  position: relative;
+}
+
+.desktop .overlap {
+  position: relative;
+  width: 100%;
+  height: 1895px;
+  top: -138px;
+  left: -394px;
+  margin-left: 12%;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 2071px;
+  height: 2564px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .ellipse {
+  width: 747px;
+  height: 704px;
+  top: 403px;
+  left: 1252px;
+  background-color: #1066ff;
+  border-radius: 373.5px/352px;
+  position: absolute;
+  filter: blur(346.4px);
+}
+
+.desktop .ellipse-2 {
+  width: 747px;
+  height: 704px;
+  top: 1586px;
+  left: 1324px;
+  background-color: #1066ff;
+  border-radius: 373.5px/352px;
+  position: absolute;
+  filter: blur(346.4px);
+}
+
+.desktop .ellipse-3 {
+  width: 811px;
+  height: 748px;
+  top: 0;
+  left: 114px;
+  background-color: #5d5dda;
+  border-radius: 405.5px/374px;
+  position: absolute;
+  filter: blur(346.4px);
+}
+
+.desktop .ellipse-4 {
+  width: 811px;
+  height: 748px;
+  top: 1147px;
+  left: 0;
+  background-color: #5d5dda;
+  border-radius: 405.5px/374px;
+  position: absolute;
+  filter: blur(346.4px);
+}
+
+.desktop .navbar {
+  position: absolute;
+  width: 1073px;
+  height: 63px;
+  top: 199px;
+  left: 582px;
+}
+
+.desktop .viral-vantage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 85px;
+  top: 23px;
+  left: 670px;
+  font-family: "Outfit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  transition: filter 0.3s;
+}
+
+.desktop .text-wrapper:hover {
+  cursor: pointer;
+  filter: brightness(0.5);
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  width: 98px;
+  top: 23px;
+  left: 807px;
+  font-family: "Outfit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  transition: filter 0.3s;
+}
+
+.desktop .text-wrapper-2:hover {
+  cursor: pointer;
+  filter: brightness(0.5);
+}
+
+.desktop .text-wrapper-3 {
+  position: absolute;
+  width: 109px;
+  top: 23px;
+  left: 956px;
+  font-family: "Outfit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  transition: filter 0.3s;
+}
+
+.desktop .text-wrapper-3:hover {
+  cursor: pointer;
+  filter: brightness(0.5);
+}
+
+.desktop .section {
+  position: absolute;
+  width: 1256px;
+  height: 533px;
+  top: 262px;
+  left: 582px;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  width: 1252px;
+  height: 533px;
+}
+
+.desktop .play {
+  position: absolute;
+  width: 816px;
+  height: 533px;
+  top: 0;
+  left: 436px;
+  object-fit: cover;
+}
+
+.desktop .expand-your-business {
+  position: absolute;
+  width: 649px;
+  top: 164px;
+  left: 0;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .p {
+  position: absolute;
+  width: 595px;
+  top: 362px;
+  left: 0;
+  font-family: "Outfit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .partnered {
+  position: absolute;
+  width: 1067px;
+  height: 156px;
+  top: 795px;
+  left: 582px;
+}
+
+.desktop .overlap-2 {
+  position: relative;
+  width: 1065px;
+  height: 156px;
+}
+
+.desktop .partnered-with {
+  position: absolute;
+  top: 0;
+  left: 434px;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .rectangle {
+  width: 1065px;
+  height: 89px;
+  top: 42px;
+  border-radius: 36px;
+  position: absolute;
+  left: 0;
+  background-color: #c68dff6b;
+}
+
+.desktop .image {
+  width: 255px;
+  height: 50px;
+  top: 59px;
+  left: 66px;
+  position: absolute;
+  object-fit: cover;
+  transition: transform 0.3s; /* Add transition for smooth effect */
+}
+
+.desktop .image:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Adjust the scale value as needed */
+}
+
+.desktop .img {
+  width: 407px;
+  height: 138px;
+  top: 18px;
+  left: 335px;
+  position: absolute;
+  object-fit: cover;
+  transition: transform 0.3s; /* Add transition for smooth effect */
+}
+
+.desktop .img:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Adjust the scale value as needed */
+}
+
+.desktop .image-2 {
+  width: 239px;
+  height: 118px;
+  top: 28px;
+  left: 755px;
+  position: absolute;
+  object-fit: cover;
+  transition: transform 0.3s; /* Add transition for smooth effect */
+}
+
+.desktop .image-2:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Adjust the scale value as needed */
+}
+
+.desktop .analytics {
+  position: absolute;
+  width: 1312px;
+  height: 499px;
+  top: 941px;
+  left: 351px;
+}
+
+.desktop .overlap-3 {
+  position: relative;
+  width: 1265px;
+  height: 499px;
+  left: 43px;
+}
+
+.desktop .text-wrapper-4 {
+  width: 528px;
+  top: 274px;
+  left: 718px;
+  position: absolute;
+  font-family: "Outfit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .new-file {
+  position: absolute;
+  width: 858px;
+  height: 499px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .the-power-of-data {
+  position: absolute;
+  width: 545px;
+  top: 151px;
+  left: 720px;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .customers {
+  position: absolute;
+  width: 1278px;
+  height: 609px;
+  top: 1404px;
+  left: 582px;
+}
+
+.desktop .overlap-4 {
+  position: relative;
+  width: 1252px;
+  height: 609px;
+}
+
+.desktop .text-wrapper-5 {
+  width: 559px;
+  top: 343px;
+  left: 0;
+  position: absolute;
+  font-family: "Outfit-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .customer-service-and {
+  position: absolute;
+  width: 577px;
+  top: 208px;
+  left: 0;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .success {
+  position: absolute;
+  width: 871px;
+  height: 609px;
+  top: 0;
+  left: 381px;
+  object-fit: cover;
+}
+
+.desktop .testimonials {
+  position: absolute;
+  width: 801px;
+  height: 100px;
+  top: 1990px;
+  left: 716px;
+}
+
+.desktop .testimonials-2 {
+  position: absolute;
+  top: 0;
+  left: 284px;
+  font-family: "Outfit-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .read-what-others {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 110%;
+}
+
+.desktop .testimonial {
+  left: 1302px;
+  position: absolute;
+  width: 349px;
+  height: 440px;
+  top: 2124px;
+}
+
+.desktop .overlap-5 {
+  position: relative;
+  width: 345px;
+  height: 440px;
+  transition: transform 0.3s; /* Add transition for smooth effect */
+}
+
+.desktop .overlap-5:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Adjust the scale value as needed */
+}
+
+.desktop .rectangle-2 {
+  width: 345px;
+  height: 379px;
+  top: 61px;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  background-color: #c68dff6b;
+}
+
+.desktop .mask-group {
+  position: absolute;
+  width: 136px;
+  height: 137px;
+  top: 0;
+  left: 104px;
+}
+
+.desktop .sophia-garcia {
+  position: absolute;
+  top: 140px;
+  left: 79px;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-6 {
+  position: absolute;
+  width: 307px;
+  top: 171px;
+  left: 21px;
+  font-family: "Outfit-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-wrapper {
+  left: 582px;
+  position: absolute;
+  width: 349px;
+  height: 440px;
+  top: 2124px;
+}
+
+.desktop .rachel-smith {
+  left: 90px;
+  position: absolute;
+  top: 140px;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .overlap-group-wrapper {
+  left: 942px;
+  position: absolute;
+  width: 349px;
+  height: 440px;
+  top: 2124px;
+}
+
+.desktop .david-johnson {
+  left: 73px;
+  position: absolute;
+  top: 140px;
+  font-family: "Outfit-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .rectangle-3 {
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  top: 2568px;
+  left: 0;
+  background-color: #c68dff6b;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+}
