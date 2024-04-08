@@ -4,6 +4,10 @@
   box-sizing: border-box; /* Optional: includes padding and border in the element's total width and height */
 }
 
+body {
+  background-color: #17026d;
+}
+
 .desktop {
   background-color: #17026d;
   display: flex;
