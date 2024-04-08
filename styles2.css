@@ -4,6 +4,10 @@
   box-sizing: border-box; /* Optional: includes padding and border in the element's total width and height */
 }
 
+body {
+  background-color: #17026d;
+}
+
 .desktop {
   background-color: #17026d;
   display: flex;
@@ -26,6 +30,36 @@
   top: -138px;
   left: -394px;
   margin-left: 12%;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1500px) {
+  .desktop {
+    width: 200%;
+    height: 200%;
+  }
+
+  .desktop .overlap {
+    margin-left: 25%; /* Adjust this value accordingly */
+  }
+
+  .desktop .div {
+    overflow: visible;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .desktop {
+    width: 200%;
+    height: 200%;
+  }
+
+  .desktop .overlap {
+    margin-left: 5%; /* Adjust this value accordingly */
+  }
+
+  .desktop .div {
+    overflow: visible;
+  }
 }
 
 .desktop .ellipse {

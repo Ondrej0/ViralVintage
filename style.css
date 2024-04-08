@@ -17,7 +17,7 @@
   background-color: #17026d;
   overflow: hidden;
 
-  width: 100%;
+  width: 100vw;
   height: 2603px;
   position: relative;
 }
@@ -31,9 +31,41 @@
   margin-left: 12%;
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1500px) {
+  .desktop {
+    width: 200%;
+  }
+  
+  .desktop .overlap {
+    margin-left: -10%; /* Adjust this value accordingly */
+  }
+
+  .desktop .div {
+
+    overflow: visible;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .desktop {
+    width: 200%;
+  }
+  
+  .desktop .overlap {
+    margin-left: -40%; /* Adjust this value accordingly */
+  }
+
+  .desktop .div {
+
+    overflow: visible;
+  }
+}
+
+
+
 .desktop .overlap-group {
   position: absolute;
-  width: 2071px;
+  width: 100%;
   height: 2564px;
   top: 0;
   left: 0;
